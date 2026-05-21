@@ -2,6 +2,7 @@ import type { Project } from '../types'
 import vSocialImg from '../assets/projetos/phpVSocial.gif'
 import musicImg from '../assets/projetos/musicmais.gif'
 import wikiImg from '../assets/projetos/WikiArquetipos.gif'
+import vouverImg from '../assets/projetos/vouver.gif'
 
 export const projects: Project[] = [
   {
@@ -50,6 +51,22 @@ export const projects: Project[] = [
       'Foco em leitura e organização do conteúdo',
       'Estrutura extensível para novos tópicos',
       'Visual limpo para estudo e consulta',
+    ],
+  },
+  {
+    id: 'vouver',
+    title: 'VouVer',
+    description: 'App mobile para descobrir filmes, salvar listas e gerenciar perfil com Firebase.',
+    longDescription:
+      'O VouVer é um aplicativo mobile em Expo + React Native que facilita a descoberta de filmes, busca por títulos e organização de listas personalizadas. Ele usa Firebase para autenticação e persistência de dados, além de consultar a API TMDB para exibir informações de filmes em tempo real.',
+    image: vouverImg,
+    github: 'https://github.com/vitorsantabi/vouver',
+    technologies: ['Expo', 'React Native', 'Firebase', 'TMDB API'],
+    highlights: [
+      'Descoberta de filmes e lançamentos',
+      'Busca rápida por títulos com cards informativos',
+      'Listas personalizadas salvas pelo usuário',
+      'Autenticação e dados persistentes com Firebase',
     ],
   },
 ]
